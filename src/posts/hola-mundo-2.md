@@ -6,7 +6,7 @@ date: 2021-07-10T01:24:43.971Z
 tags:
   - Tags
 ---
-```abuild
+```
 <div x-data="{ open: false }">
     <button @click="open = true">Expand</button>
  
