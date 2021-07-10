@@ -34,10 +34,7 @@ layout: blog
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
-
-            
-                <span class="text-indigo-400 font-bold text-lg">{{ post.data.body | emojiReadTime }}</span>
-            
+                <p class="text-indigo-400 font-bold text-lg"> - {{ post.data.body | emojiReadTime }}</p>
             </p>
 
         </article>

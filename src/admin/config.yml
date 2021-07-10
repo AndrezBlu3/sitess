@@ -1,6 +1,6 @@
 backend:
   # Use netlify identity as backend
-  name: git-gateway
+  name: AndrezBlu3/11ty
   branch: master
   ### enable below lines for github integration ###
   # name: github
@@ -17,7 +17,7 @@ collections:
     folder: "src/posts"
     create: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
