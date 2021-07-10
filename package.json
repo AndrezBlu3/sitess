@@ -24,6 +24,7 @@
     "tailwindcss": "^2.0.2"
   },
   "dependencies": {
+    "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1"
   }

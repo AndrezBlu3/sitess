@@ -34,6 +34,10 @@ layout: blog
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
+
+            {% if post.data.body %}
+                <a href="/about_readtime">{{ post.data.body | emojiReadTime }}</a>
+            {% endif %}
             </p>
 
         </article>

@@ -2,6 +2,8 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -19,6 +21,7 @@ module.exports = function (eleventyConfig) {
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(emojiReadTime);
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
